@@ -5,17 +5,19 @@
       <div class="col-lg-10 col-lg-offset-1">
         <h2>Contact us by Netlify</h2>
         <hr class="small">
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" netlify style="background-color: darkblue;padding: 30px;">
           <p class="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
           <p>
-            <label>Email: <input type="text" name="name" /></label>
+            <label>Email: <input type="text" name="name" style="color: black;"/></label>
           </p>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Message: <textarea name="message" style="color: black;"></textarea></label>
           </p>
-          <div data-netlify-recaptcha></div>
+          <p>
+            <div data-netlify-recaptcha></div>
+          </p>
           <p>
             <button type=”submit”>Send</button>
           </p>
