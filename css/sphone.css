@@ -1,9 +1,9 @@
 #box {
     overflow: auto;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 500px;
 }
 #box iframe {
-    width: 295px; /*PC版の幅－5pxくらい*/
-    height: 200px;
+    width: 345px; /*PC版の幅－5pxくらい*/
+    height: 500px;
 }
